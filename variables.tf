@@ -19,7 +19,7 @@ variable "vpc-cidr" {
 }
 
 variable "subnet1-cidr" {
-    default = "10.0.4.0/24"
+    default = "10.0.1.0/24"
   
 }
 variable "subent_az" {
