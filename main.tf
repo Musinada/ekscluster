@@ -55,10 +55,11 @@ resource "aws_route_table_association" "demo-rt_association" {
 
   route_table_id = aws_route_table.demo-rt.id
 }
+
 // create a security group 
 
-resource "aws_security_group" "demo-vpc-sg" {
-  name        = "demo-vpc-sg"
+resource "aws_security_group" "demo-vpc1-sg" {
+  name        = "demo-vpc1-sg"
  
   vpc_id      = aws_vpc.demo-vpc1.id
 
