@@ -3,11 +3,11 @@ variable "location" {
 }
 
 variable "os_name" {
-    default = "ami-09ba48996007c8b50"
+    default = "ami-0607784b46cbe5816"
 }
 
 variable "key" {
-    default = "rtp-03"
+    default = "anil"
 }
 
 variable "instance-type" {
@@ -15,11 +15,11 @@ variable "instance-type" {
 }
 
 variable "vpc-cidr" {
-    default = "10.10.0.0/16"  
+    default = "10.0.0.0/16"  
 }
 
 variable "subnet1-cidr" {
-    default = "10.10.1.0/24"
+    default = "10.0.4.0/24"
   
 }
 variable "subent_az" {
