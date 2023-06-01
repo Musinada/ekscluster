@@ -7,7 +7,7 @@ variable "os_name" {
 }
 
 variable "key" {
-    default = "anil"
+    default = "demoanil"
 }
 
 variable "instance-type" {
